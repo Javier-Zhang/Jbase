@@ -8,9 +8,11 @@ Get_attr(col = NULL, print = T)
 }
 \arguments{
 \item{col}{column of a dataframe}
+
+\item{print}{Whether or not to print}
 }
 \value{
-Arranged statistical results
+Arranged statistical results.
 }
 \description{
 Get attribution
