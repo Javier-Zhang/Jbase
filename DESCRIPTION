@@ -1,0 +1,18 @@
+Package: Jbase
+Type: Package
+Title: Some usefull tools for my work
+Version: 0.1.0
+Author: Javeri Zhang
+Maintainer: The package maintainer <javierzhang@foxmail.com>
+Description: Some usefull tools for my work
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+imports:
+  magrittr,
+  ggplot2,
+  grDevices,
+  scales
+Suggests: 
+    renv
