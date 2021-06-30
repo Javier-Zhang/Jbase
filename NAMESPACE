@@ -3,6 +3,7 @@
 export("%>%")
 export(Get_attr)
 export(Stat_col)
+export(format_pvalue)
 export(save_image)
 importFrom(ggplot2,ggsave)
 importFrom(magrittr,"%>%")
