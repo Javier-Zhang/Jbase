@@ -15,7 +15,9 @@ Imports:
   magrittr,
   ggplot2,
   grDevices,
-  scales
+  scales,
+  survival,
+  survminer
 Suggests: 
     renv,
     testthat (>= 3.0.0)
