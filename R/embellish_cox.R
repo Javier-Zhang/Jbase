@@ -8,7 +8,7 @@
 #' @export
 #'
 #' @examples
-#' Mul_res = embellish_cox(data = Mul_res, Characteristics = Characteristics)
+#'
 #'
 
 embellish_cox <- function(data = NULL, Characteristics = NULL){

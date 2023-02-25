@@ -18,6 +18,6 @@ Cox results
 Modify the results of COX analysis
 }
 \examples{
-Mul_res = embellish_cox(data = Mul_res, Characteristics = Characteristics)
+
 
 }

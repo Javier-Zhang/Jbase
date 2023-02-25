@@ -2,9 +2,7 @@
 % Please edit documentation in R/Cox_analysis.R
 \name{Mul_cox}
 \alias{Mul_cox}
-\title{Characteristics' = x,
-CI5' = CI5,
-CI95' = CI95,}
+\title{Cox Analysis}
 \usage{
 Mul_cox(
   variables = NULL,
@@ -16,8 +14,24 @@ Mul_cox(
   included_uni = T
 )
 }
+\arguments{
+\item{variables}{Variable for analysis}
+
+\item{data}{Clinial Matrix}
+
+\item{p_cut}{P value cutoff for univariate analysis}
+
+\item{censored}{OS time cutoff; 60 is recommended}
+
+\item{OS}{Column names representing survival status}
+
+\item{OS_time}{Column names representing survival time}
+
+\item{included_uni}{Results of univariate analysis were included or not}
+}
+\value{
+Cox univariate and multivariate results
+}
 \description{
-Characteristics' = x,
-CI5' = CI5,
-CI95' = CI95,
+Cox Analysis
 }

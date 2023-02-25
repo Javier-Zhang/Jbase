@@ -2,6 +2,7 @@
 
 export("%>%")
 export(Get_attr)
+export(Mul_cox)
 export(Stat_col)
 export(Uni_cox)
 export(embellish_cox)
